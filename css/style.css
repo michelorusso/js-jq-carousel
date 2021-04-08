@@ -7,6 +7,7 @@
 
 img {
     width: 100%;
+    height: 550px;
 }
 
 .container {
@@ -32,6 +33,6 @@ img {
     display: none;
 }
 
-.images img.show {
+.images .show {
     display: block;
 }
