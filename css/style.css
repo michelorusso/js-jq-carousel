@@ -5,3 +5,33 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
+.container {
+    width: 1024px;
+    margin: auto; 
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.images {
+    padding: 5%;
+}
+
+.images img {
+    display: none;
+}
+
+.images img.show {
+    display: block;
+}
